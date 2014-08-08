@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="button_style">
+        <item name="android:focusable">true</item>
+        <item name="android:background">#87CEFA</item>
+    </style>
+
+</resources>

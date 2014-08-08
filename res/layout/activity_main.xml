@@ -1,0 +1,112 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context="com.example.mycalculator.MainActivity" >
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:background="#FFFFE0"
+        android:gravity="right"
+        android:text="@string/digit0"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/button_style"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/sub"
+        style="@style/button_style"
+        android:text="@string/sub" />
+
+    <Button
+        android:id="@+id/mul"
+        style="@style/button_style"
+        android:text="@string/mul" />
+
+    <Button
+        android:id="@+id/div"
+        style="@style/button_style"
+        android:text="@string/div" />
+
+    <Button
+        android:id="@+id/seven"
+        style="@style/button_style"
+        android:text="@string/digit7" />
+
+    <Button
+        android:id="@+id/eight"
+        style="@style/button_style"
+        android:text="@string/digit8" />
+
+    <Button
+        android:id="@+id/nine"
+        style="@style/button_style"
+        android:text="@string/digit9" />
+
+    <Button
+        android:id="@+id/clear"
+        style="@style/button_style"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/four"
+        style="@style/button_style"
+        android:text="@string/digit4" />
+
+    <Button
+        android:id="@+id/five"
+        style="@style/button_style"
+        android:text="@string/digit5" />
+
+    <Button
+        android:id="@+id/six"
+        style="@style/button_style"
+        android:text="@string/digit6" />
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/button_style"
+        android:layout_gravity="fill_vertical"
+        android:layout_rowSpan="3"
+        android:text="@string/equal" />
+
+    <Button
+        android:id="@+id/one"
+        style="@style/button_style"
+        android:text="@string/digit1" />
+
+    <Button
+        android:id="@+id/two"
+        style="@style/button_style"
+        android:text="@string/digit2" />
+
+    <Button
+        android:id="@+id/three"
+        style="@style/button_style"
+        android:text="@string/digit3" />
+
+    <Button
+        android:id="@+id/sign"
+        style="@style/button_style"
+        android:text="@string/sign" />
+
+    <Button
+        android:id="@+id/zero"
+        style="@style/button_style"
+        android:text="@string/digit0" />
+
+    <Button
+        android:id="@+id/dot"
+        style="@style/button_style"
+        android:text="@string/dot" />
+
+</GridLayout>
