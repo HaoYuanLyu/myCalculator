@@ -124,7 +124,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 
 		// clear
-		if (view.getId() == R.id.clear) {
+		if (view.getId() == R.id.clear||resultView.getText().toString().contains("Infinity")) {
 			resultView.setText("0");
 			return;
 		}
